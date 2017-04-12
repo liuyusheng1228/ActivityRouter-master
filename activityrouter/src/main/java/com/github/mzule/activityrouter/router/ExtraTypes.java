@@ -3,9 +3,10 @@ package com.github.mzule.activityrouter.router;
 import java.util.Map;
 
 /**
- * Created by CaoDongping on 4/6/16.
+ * Created by CaoDongping on 4/6/16.是是是
  */
 public class ExtraTypes {
+    private static final int  s = 0;
     public static final int STRING = -1;
     public static final int INT = 1;
     public static final int LONG = 2;
