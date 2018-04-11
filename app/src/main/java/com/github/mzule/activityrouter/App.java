@@ -10,6 +10,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 
+import java.util.logging.Logger;
+
+import sun.rmi.runtime.Log;
+
 /**
  * Created by CaoDongping on 4/6/16.
  */
@@ -30,6 +34,8 @@ public class App extends Application implements RouterCallbackProvider {
             @Override
             public void notFound(Context context, Uri uri) {
                 context.startActivity(new Intent(context, NotFoundActivity.class));
+                Log.getLog("","",0);
+
             }
 
             @Override
